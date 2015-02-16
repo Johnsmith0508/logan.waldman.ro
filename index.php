@@ -45,6 +45,7 @@ $conn->close();
 		<div class="main">
 			<p>This is temporary until stuff happens</p>
 			<p>thare is also this <a href=":8080/jenkins">Jenkins server</a></p>
+			<p>Now On github</p>
 		</div>
 	</body>
 </html>
