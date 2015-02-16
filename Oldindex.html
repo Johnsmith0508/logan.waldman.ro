@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>Hello</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+        <script>
+            document.addEventListener('click', function(event) {
+                var target = event.target;
+                if (target.tagName.toLowerCase() == 'a')
+                {
+                    var port = target.getAttribute('href').match(/^:(\d+)(.*)/);
+                    if (port)
+                    {
+                        target.href = port[2];
+                        target.port = port[1];
+                    }
+                }
+            }, false);
+        </script>
+	</head>
+	<body>
+		<div class="head">
+			<h1>It works!</h1>
+		</div>
+		<div class="main">
+			<p>This is temporary until stuff happens</p>
+			<p>thare is also this <a href=":8080/jenkins">Jenkins server</a></p>
+		</div>
+		<div class="nav">
+			<table width="10%">
+				<tr><td>Hello</td></tr>
+				<tr><td>Hello</td></tr>
+				<tr><td>Hello</td></tr>
+			</table>
+		</div>
+	</body>
+</html>

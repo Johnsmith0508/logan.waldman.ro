@@ -1,0 +1,78 @@
+	body {
+		background-image: url('https://raw.githubusercontent.com/Johnsmith0508/misc-add/gh-pages/images/bkg.png');
+		background-repeat: repeat;
+		background-color: #858585;
+	}
+	p {
+		font-family: "Lucida Console";
+		font-size: 15px;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	}
+	h2,h3,h4,h5,h6 {
+		color: rgba(176, 206, 182, 0.54);
+		text-align: center;
+		font-family: "Lucida Console";
+	}
+	.head {
+		padding-top: 15px;
+		color: #64A84D;
+		text-align: center;
+		font-size: 30px;
+		font-family: monospace;
+	}
+	p {
+		color: #BFBFBF;
+	}
+	/* unvisited link */
+	a:link {
+		color: #3D3D5C;
+	}
+	/* visited link */
+	a:visited {
+		color: #9E9EAE;
+	}
+	/* mouse over link */
+	a:hover {
+		color: #FFFFFF;
+	}
+	/* selected link */
+	a:active {
+		color: #808080;
+	}
+	.nav {
+		color: #BFBFBF;
+		background-image: url("/Pages/misc-add/images/nav-bg.gif");
+		vertical-align: top;
+		text-align: center;
+		height: 30px;
+		width: 100%;
+		font-family: monospace;
+		font-size: 20px;
+		position: absolute;
+		top: -2px;
+	}
+	.nav a {
+		text-decoration: none;
+	}
+	table, th, td, tr, tbody {
+		position: relative;
+		top: -100px;
+		text-align: center;
+		background-color: #858585;
+    	border: 1px solid orange;
+    	color: #BFBFBF;
+	}
+
+
+	.signup {
+		text-align: center;
+		vertical-align: middle;
+		font-size: 25px;
+		font-family: monospace;
+		color: #fff;
+		font-weight: bolder;
+		width:100%;
+	}
