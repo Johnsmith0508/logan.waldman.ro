@@ -37,7 +37,7 @@ $conn->close();
 	</head>
 	<body>
 		<div class="nav">
-			<a href="/Pages/misc-add">Misc - Add</a> | <div id="log"><a href="/login">Log in</a></div>
+			<a href="/Pages/misc-add">Misc - Add</a> | <a href="/login">Log in</a>
 		</div>
 		<div class="head">
 			<h1>It works!</h1>
